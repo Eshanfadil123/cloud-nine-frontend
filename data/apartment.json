@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Cloud Nine",
+    "location": "Kuthuparamba , Kerala",
+    "contact": " 9991559911/9991559933",
+    "category" : "4-Star",
+    "rooms": [
+      {
+        "type": "suite",
+        "price": "₹3250",
+        "size": "single bedroom",
+        "people": "4",
+        "available": true
+      },
+      {
+        "type": "deluxe",
+        "price": "₹2500",
+        "size": "double bedroom",
+        "people": "2",
+        "available": true
+      },
+      {
+        "type": "deflux",
+        "price": "₹2800",
+        "size": "triple bedroom",
+        "people": "3",
+        "available": true
+      }
+    ],
+    "amenities": [
+      "room service",
+      "Central Air Conditioning",
+      "Free Wi-Fi",
+      "Cafeteria",
+      "Conference Room"
+    ],
+    "check-in": "12:00 PM",
+    "check-out": "11:00 AM",
+    "location": "https://maps.app.goo.gl/CE3dJ3t83LHGysVw8?g_st=ic"
+  }
+]
