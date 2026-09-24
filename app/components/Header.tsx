@@ -10,7 +10,7 @@ const playfair = Playfair_Display({
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://cloud-nine-wbjw.onrender.com";
 
 export default function Header() {
   const textRef = useRef<SVGSVGElement | null>(null);

@@ -109,7 +109,7 @@ export default function FifthSection() {
       });
 
       tl.fromTo(
-        textRef.current.querySelectorAll(".line"),
+        textRef.current!.querySelectorAll(".line"),
         {
           yPercent: 100,
           opacity: 0,

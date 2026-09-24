@@ -10,7 +10,7 @@ interface AuthModalProps {
   onAuthSuccess?: (username: string) => void;
 }
 
-const API_BASE = "http://localhost:4000"; // match your Express server's port
+const API_BASE = "https://cloud-nine-wbjw.onrender.com"; // match your Express server's port
 
 export default function AuthModal({ onClose, onAuthSuccess }: AuthModalProps) {
   const [mounted, setMounted] = useState(false);   // 👈 ADDED
