@@ -64,7 +64,7 @@ useEffect(() => {
 
   const ctx = gsap.context(() => {
     gsap.fromTo(
-      paraRef.current.querySelectorAll(".line"),
+      paraRef.current!.querySelectorAll(".line"),
       {
         yPercent: 100,
         opacity: 0,
