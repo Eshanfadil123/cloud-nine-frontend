@@ -6,7 +6,7 @@ import gsap from "gsap";
 
 export default function Last() {
 
-  const buttonRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   const handleMove = (e: React.MouseEvent<HTMLButtonElement>) => {
     if (!buttonRef.current) return;
